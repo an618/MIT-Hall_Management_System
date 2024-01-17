@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Table</title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #e4ecf0;
+		}
+		.container{
+			width: 70%;
+			margin:2rem auto;
+		}
+		.table{
+			width: 100%;
+			padding:1rem 20px;
+			display: flex;
+			justify-content: space-between; 
+		}
+		.heading{
+			flex-basis: 50%;
+			text-align: left;
+
+		}
+		h1{
+			font-size: 2.5rem;
+			font-weight: 900;
+			color: forestgreen;
+			text-shadow: 1px 2px 1px #fff;
+			font-family: sans-serif;
+			
+
+		}
+		.search-box{
+			flex-basis: 20%;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			position: relative;
+			padding-right: 3px;
+		}
+		input{
+			width: 0;
+			height: 50px;
+			border:none;
+			outline: none;
+			background-color: #fff;
+			color: green;
+			font-size: 20px;
+			padding:0px 20px;
+			box-shadow: 0 0 15px 1px #b6bbc0;
+			transition: 1s linear;
+			border-radius: 50px;
+
+		}
+
+		.search-btn{
+			position: absolute;
+			top:50%;
+			transform: translateY(-50%);
+			right: 0;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-color: forestgreen;
+
+		}
+
+		.fas{
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			color: #fff;
+			font-size: 20px; 
+		}
+
+		.active{
+			width: 100%;
+		}
+
+		table{
+			width: 100%;
+			border-collapse: collapse;
+			text-align: center;
+		}
+
+		th,td{
+			padding: 1rem 20px;
+			border:1px solid #bbb;
+		}
+
+		th{
+			font-size: 25px;
+			font-weight: bold;
+			color: black;
+			background-color: #cccccc;
+			font-family: sans-serif;
+
+		}
+		td{
+			font-size: 18px;
+			font-family: sans-serif;
+			font-weight: lighter;
+
+		}
+
+		thead th:nth-child(1){
+			padding:1rem 5px;
+		}
+
+		tbody tr:nth-child(even){
+			background-color: #f5f5f5;
+		}
+		tbody tr:nth-child(odd){
+			background-color: #fff;
+		}
+
+		@media(max-width: 500px){
+			.container{
+				width: 90%
+			}
+			.table{
+				flex-direction: column-reverse;
+			}
+			.heading{
+				width: 100%;
+				text-align:center;
+			}
+			.search-box{
+				width: 100%;
+				margin-bottom: 10px;
+			}
+			thead{
+				display: none;
+			}
+			tbody,tr,td{
+				display: block;
+				width: 100%;
+			}
+			tr{
+				margin-bottom: 2rem;
+			}
+			td{
+				text-align:right;
+				position: relative;
+			}
+			td:before{
+				content: attr(data-label);
+				position: absolute;
+				left: 5px;
+				font-weight: bold;
+				color: #000;
+				font-size: 25px;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="table">
+			<div class="heading">
+				<h1>Student Result</h1>
+			</div>
+			<div class="search-box">
+				<input type="text" id="search">
+				<div class="search-btn">
+					<i class="fas fa-search"></i>
+				</div>
+			</div>
+		</div>
+		<table>
+			<thead >
+				
+				<th rowspan="2">Name</th>
+				<th rowspan="2">Email Id</th>
+				<th rowspan="2">ERP number</th>
+				<th rowspan="2">Phone number</th>
+				<th colspan="6">Attendance</th>
+				<tr>
+					<th>1</th>
+					<th>2</th>
+					<th>3</th>
+					<th>4</th>
+					<th>5</th>
+					<th>6</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					
+					<td data-label="Name">Nikhil</td>
+					<td data-label="Age">abs@gmail.com</td>
+					<td data-label="Marks">123456</td>
+					<td data-label="Status">***1234</td>
+					<td data-label="Status">***1234</td>
+					<td data-label="Status">***1234</td>
+					<td data-label="Status">***1234</td>
+					<td data-label="Status">***1234</td>
+					<td data-label="Status">***1234</td>
+					<td data-label="Status">***1234</td>
+				</tr>
+				<tr>
+					
+					<td data-label="Name">Nikhil</td>
+					<td data-label="Age">abs@gmail.com</td>
+					<td data-label="Marks">123456</td>
+					<td data-label="Status">***1234</td>
+				</tr>
+				
+				<tr>
+				
+					<td data-label="Name">Rohan</td>
+					<td data-label="Age">15</td>
+					<td data-label="Marks">72</td>
+					<td data-label="Status">Pass</td>
+				</tr>
+				<tr>
+				
+					<td data-label="Name">Veer</td>
+					<td data-label="Age">11</td>
+					<td data-label="Marks">98</td>
+					<td data-label="Status">Pass</td>
+				</tr>
+				<tr>
+				
+					<td data-label="Name">Rocky</td>
+					<td data-label="Age">15</td>
+					<td data-label="Marks">20</td>
+					<td data-label="Status">fail</td>
+				</tr>
+				<tr>
+				
+					<td data-label="Name">Peter</td>
+					<td data-label="Age">15</td>
+					<td data-label="Marks">79</td>
+					<td data-label="Status">Pass</td>
+				</tr>
+				<tr>
+				
+					<td data-label="Name">Armaan</td>
+					<td data-label="Age">10</td>
+					<td data-label="Marks">67</td>
+					<td data-label="Status">Pass</td>
+				</tr>
+				<tr>
+				
+					<td data-label="Name">Remo</td>
+					<td data-label="Age">15</td>
+					<td data-label="Marks">57</td>
+					<td data-label="Status">Pass</td>
+				</tr>
+				<tr>
+					
+					<td data-label="Name">Arif</td>
+					<td data-label="Age">12</td>
+					<td data-label="Marks">86</td>
+					<td data-label="Status">Pass</td>
+				</tr>
+				<tr>
+					
+					<td data-label="Name">Arun</td>
+					<td data-label="Age">16</td>
+					<td data-label="Marks">27</td>
+					<td data-label="Status">fail</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.fas').click(function(){
+			$('input').toggleClass('active').val('');
+		});
+		$('input').on('keyup',function(){
+			var value = $(this).val().toLowerCase();
+			$('tbody tr').filter(function(){
+				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+			});
+
+		});
+	});
+	
+</script>
+
+
+</body>
+</html>

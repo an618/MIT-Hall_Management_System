@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/Attendance.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Hello, world!</title>
+
+</head>
+<body>
+  <section id="Attendance">
+  <div class="container">
+    <div class="table">
+      <h1>Attendance</h1>
+      <hr class="underline">
+    </div>
+    <div class="search">
+              <div class="search-box">
+                  <input class="table_search" type="text" id="search">
+                  <div class="search-btn">
+                      <i class="fas fa-search"></i>
+                  </div>
+              </div>
+  </div>
+    <table class="table table-bordered">
+      <form class="form-group" method="POST" action="">
+        <thead>
+          <tr>
+            <th rowspan="2" id="n1">Roll No</th>
+            <th rowspan="2" id="n2">Name</th>
+            <th rowspan="2" id="n3">Erp number</th>
+            <th colspan="6">Attendance</th>
+
+          </tr>
+          <tr>
+            <th>01/01/2020</th>
+            <th>01/01/2020</th>
+            <th>01/01/2020</th>
+            <th>01/01/2020</th>
+            <th>01/01/2020</th>
+            <th>01/01/2020</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>401</td>
+            <td>Nikhil Agarwal</td>
+            <!-- <td>Something@gmail.com</td> -->
+            <td>12345*</td>
+            <!-- <td>yyyyyyyyy</td> -->
+            <td><input type="checkbox" id="checkbox" />
+              <label for="checkbox"></label></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+
+          </tr>
+          <tr>
+            <td>402</td>
+            <td>Ankit Sahu</td>
+            <!-- <td>Something@gmail.com</td> -->
+            <td>9876</td>
+            <!-- <td>xxxxxxxxx</td> -->
+
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+          </tr>
+          <tr>
+            <td>403</td>
+            <td>Ankit Sahu</td>
+            <!-- <td>Something@gmail.com</td> -->
+            <td>S10421*****</td>
+            <!-- <td>xxxxxxxxx</td> -->
+
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+          </tr>
+          <tr>
+            <td>404</td>
+            <td>Ankit Sahu</td>
+            <!-- <td>Something@gmail.com</td> -->
+            <td>S10421*****</td>
+            <!-- <td>xxxxxxxxx</td> -->
+
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+          </tr>
+          <tr>
+            <td>405</td>
+            <td>Ankit Sahu</td>
+            <!-- <td>Something@gmail.com</td> -->
+            <td>S10421*****</td>
+            <!-- <td>xxxxxxxxx</td> -->
+
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+            <td><input type="checkbox" name="ch[]" value="C Programming"></td>
+          </tr>
+
+         
+          <tr>
+            <td colspan="3"></td>
+            <td><button class="btn2">Generate QR </button></td>
+            <td><button class="btn2">Generate QR </button></td>
+            <td><button class="btn2">Generate QR </button></td>
+            <td><button class="btn2">Generate QR </button></td>
+            <td><button class="btn2">Generate QR </button></td>
+            <td><button class="btn2">Generate QR </button></td>
+          </tr>
+
+        </tbody>
+        </form>
+    </table>
+    <div class="buttons">
+      <button class="btn1">Add Participant</button>
+      <button class="btn1">Delete Participant</button>
+    </div>
+  </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+
+
+<script>
+	$(document).ready(function(){
+		$('.fas').click(function(){
+			$('input').toggleClass('active').val('');
+		});
+		$('input').on('keyup',function(){
+			var value = $(this).val().toLowerCase();
+			$('tbody tr').filter(function(){
+				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+			});
+
+		});
+	});
+	
+</script>
+
+
+</html>
+
+<!--
+Languages:<input type="checkbox" name="ch[]" value="C Programming">C Programming                 
+<input type="checkbox" name="ch[]" value="Java">Java
+<input type="checkbox" name="ch[]" value="php">Php 
+<input type="checkbox" name="ch[]" value="Python">Python 
+-->

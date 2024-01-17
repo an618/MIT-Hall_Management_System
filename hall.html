@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/header_footer1.css">
+    <link rel="stylesheet" href="./assets/css/hall.css ">
+    <link rel="stylesheet" href="./assets/vendor/aos/aos.css">
+
+
+    <!-- Vendor CSS Files -->
+    <!-- Icon css link -->
+    <link href="./assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="./assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- <header> -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <!-- <div class="d-flex align-items-center ">
+                <div class="logo mr-auto navbar_logo">
+                  <a href="index.html"></a>Charity -App<img src="" alt="" class="img-fluid"/></a>
+                   <h1 class="text-light"><a href="index.html"><span>Delicious</span></a></h1> 
+                </div> -->
+        <a class="navbar-brand navbar_logo" href="./index.html"><img src="./assets/images/logo/logo2.3.png" alt=""></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar_link ml-auto" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./event.html">Event</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./hall.html">Hall</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./aboutus.html">AboutUs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html/#faq">Faq's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html/#contactus">ContactUs</a>
+                </li>
+                <!-- <?php
+                if(isset($_SESSION['user_login_ID']))
+                {
+                ?> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./DoCharity.html" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Profile</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="./myprofile.html">My Profile</a>
+                        <a class="dropdown-item" href="./Attendance.html">Attendance</a>
+                        <a class="dropdown-item" href="./feedback">Feedback</a>
+                        <a class="dropdown-item" href="./logout.php">logout <box-icon name='log-out'></box-icon></a>
+                    </div>
+                </li>
+                <!-- <?php
+                }
+                else
+                {
+                    ?> -->
+                    <li class="nav-item">
+                        <a class="nav-link login_button " href="./login.html">login</a>
+                    </li>
+                <!-- <?php
+                }
+                ?> -->
+            </ul>
+        </div>
+    </nav>
+    <!-- </header> -->
+
+    <header class="event_carousel">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/m.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dyneshwar Hall</h5>
+                  <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/enthu9.jpg" class="d-block w-100" style="height: 800px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/h.jpg" class="d-block w-100" style="height: 800px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </header>
+    
+    <!-- <header class="jumbotron header_centre">
+        <div class="container">
+            <h1>Book Hall</h1>
+        </div>
+    </header> -->
+
+    <section id="hall">
+        <div class="container section-title">
+            <h2>Hall</h2>
+            <hr>
+            <br>
+            <div class="hall_search">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="hall_pic">
+                            <img src="./assets/images/enthu9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hall_detail">
+                            <h3>Dyneshwar Hall</h3>
+                            <hr class="underline">
+                            <div class="hall_details">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/capacity.svg"alt="">
+                                        <h4>Capacity : </h4> 
+                                    </div>
+                                    <div class="col-7">
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/location.svg"alt="">
+                                        <h4>Location : </h4> 
+                                    </div>
+                                    <div class="col-7">
+                                        <p>Near Computer Science <br> Department, Engg Block</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="button" class="hall_button  mt-5 mb-4" onclick="location.href='./bookhall.html';">Book Hall</button>
+                                </div>
+                                <!-- <div class="col-7">
+                                    <button type="button" class="hall_button  mt-5 mb-4">Submit</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hall_search">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="hall_pic">
+                            <img src="./assets/images/enthu9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hall_detail">
+                            <h3>Swami Vivekananda Auditorium</h3>
+                            <hr class="underline">
+                            <div class="hall_details">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/capacity.svg"alt="">
+                                        <h4>Capacity : </h4> 
+                                    </div>
+                                    <div class="col-7">
+                                        <p>800</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/location.svg"alt="">
+                                        <h4>Location : </h4> 
+                                    </div>
+                                    <div class="col-7">
+                                        <p>Near Computer Science <br> Department, Engg Block</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="button" class="hall_button  mt-5 mb-4" >Book Hall</button>
+                                </div>
+                                <!-- <div class="col-7">
+                                    <button type="button" class="hall_button  mt-5 mb-4">Submit</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hall_search">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="hall_pic">
+                            <img src="./assets/images/enthu9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hall_detail">
+                            <h3>Hall Name</h3>
+                            <hr class="underline">
+                            <div class="hall_details">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/capacity.svg"alt="">
+                                        <h4>Capacity : </h4> 
+                                    </div>
+                                    <div class="col-7">
+                                        <p>200</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img src="./assets/images/location.svg"alt="">
+                                        <h4>Location : </h4> 
+                                    </div>
+                                    <div class="col-7">
+                                        <p>Near Computer Science <br> Department, Engg Block</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="button" class="hall_button  mt-5 mb-4">Book Hall</button>
+                                </div>
+                                <!-- <div class="col-7">
+                                    <button type="button" class="hall_button  mt-5 mb-4">Submit</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <!-- ======= Footer ======= -->
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark" id="footer">
+        <!-- <div class="footer-newsletter" data-aos="fade-up">
+            <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                <h4>Join Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+                </div>
+            </div>
+            </div>
+        </div> -->
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row ">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 column_1">
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">CHARITY-APP</h6>
+                    <hr class="deep-purple " style="width: 60px;">
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit.</p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto column_2">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Get Started</h6>
+                    <hr class="deep-purple accent-2 " style="width: 60px;">
+                    <p><i class="bx bx-chevron-right"></i><a href="./index.html">Home</a></p>
+                    <p><i class="bx bx-chevron-right"></i><a href="./index.html#aboutus">AboutUs</a></p>
+                    <p><i class="bx bx-chevron-right"></i><a href="./DoCharity.html">DoCharity</a></p>
+                    <p><i class="bx bx-chevron-right"></i><a href="./verify.html">Verify</a></p>
+                    <p><i class="bx bx-chevron-right"></i><a href="#!">FAQ's</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-4 col-xl-7 mx-auto column_3 ">
+
+                    <!-- Links -->
+                    <div class="social-links">
+                        <h6 class="text-uppercase font-weight-bold text-center">Social Media</h6>
+                        <hr class="deep-purple accent-2 " style="width: 60px;">
+                        <a href="#"><i class="bx bxl-linkedin"></i></a>
+                        <a href="#"><i class="bx bxl-git"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-youtube"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                    </div>
+                    <!-- Contact
+                <div class="footer_contact">
+                    <a href="./contact.html">
+                    <svg>
+                        <rect />
+                    </svg>
+                    Contact
+                    </a>
+                </div> -->
+
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="./index.html">Project_Name</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class='fas fa-arrow-up'></i></a>
+
+    <!-- <script src="./assets/js/nav.js"></script> -->
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/vendor/aos/aos.js"></script>
+</body>
+
+</html>
