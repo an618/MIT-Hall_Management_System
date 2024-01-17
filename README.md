@@ -1,0 +1,1 @@
+This project aims that, An interface for any organizers where they can directly Request for booking of the Halls and auditoriums. Automate the process like, the organizers can directly choose the slots for their programs or seminars according to the hall availability and decide on the dates for the event and the time slot.
