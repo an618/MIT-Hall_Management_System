@@ -1,0 +1,54 @@
+#ongoingevent
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ongoingevent .title
+{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#ongoingevent .title h1
+{
+    font-weight: bold;
+    text-align: center;
+}
+ 
+#ongoingevent .title .underline
+{
+    color: #FDE3BA;
+    border: 2px solid #FDE3BA;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+}
+
+#scheduledevent
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #FEF1E0;
+}
+
+#scheduledevent .title
+{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#scheduledevent .title h1
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+#scheduledevent .title .underline
+{
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+}

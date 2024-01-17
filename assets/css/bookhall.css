@@ -1,0 +1,641 @@
+#bookhall
+{
+    background-color: #FEF1E0;
+}
+#bookhall .main_container
+{
+  padding-bottom: 150px;
+}
+#bookhall .title 
+{
+  padding-bottom: 20px;
+}
+#bookhall .title h2
+{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+#bookhall .title hr
+{
+  color: #FEF1E0;
+  border: 2px solid  #FEF1E0;
+  border-radius: 5px;
+  width: 70px;
+}
+#bookhall h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 750;
+    padding-top: 50px;
+}
+#bookhall .bookhall_form
+{
+    background-color: #ffffff;
+}
+.nav-tabs
+{
+    border-color: #d45500 !important;
+    border-bottom-color: 0px solid transparent;
+    border-bottom:  transparent;
+}
+.nav-tabs .nav-link
+{
+    background-color: #AEABC1;
+    border-bottom: 0px solid transparent;
+}
+.nav-tabs li{
+    padding: 0px;
+    border-color: #000000;
+}
+
+.nav_tabs{
+    background-color: #FEF1E0;
+}
+
+
+.tab-content .container
+{
+  background-color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------
+# General information
+----------------------------------------------------------------------------------------------------------------------*/
+#GI
+{
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+#GI .section-title
+{
+  padding-bottom: 30px;
+}
+#GI .section-title h2
+{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+#GI .container
+{
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#GI .container .section-title
+{
+  padding-bottom: 20px;
+}
+
+#GI .container .section-title h4
+{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#GI .container .general_info
+{
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#GI .container .general_info .login_form
+{
+  background-color: #fff;
+}
+
+.form-control
+{
+  border: none;
+  outline: none;
+  background-color: #CCCCCC;
+  color: #FEF1E0;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.form_row_area
+{
+  padding-left: 97px;
+  padding-top: 40px;
+}
+.form_area
+{
+  margin: 0px;
+  width: 90%;
+}
+.general_info .next_div
+{
+  padding-right: 4.4rem;
+}
+.general_info .next
+{
+  display: block;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 10%;
+  background-color: #AEABC1;
+  color: #FFF8ED;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 24px;
+  float: right;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: transform .2s Animation;
+  box-shadow: 2px 2px 5px 0px #a3a2a7;
+}
+.general_info .next:hover{
+  text-decoration: none;
+  background-color: #a099cf;
+  /* border: 1px solid; */
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #GI
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #GI .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #GI .section-title h2
+  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #GI .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #GI .container .section-title h4
+  {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container .general_info
+  {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .form_area
+  {
+    margin: 0px;
+    width: 100%;
+  }
+  #GI .container .general_info .btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #GI .container .general_info .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #GI
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #GI .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #GI .section-title h2
+  {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #GI .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #GI .container .section-title h4
+  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container .general_info
+  {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .form_area
+  {
+    margin: 0px;
+    width: 100%;
+  }
+  #GI .container .general_info .btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #GI .container .general_info .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #GI
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #GI .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #GI .section-title h2
+  {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #GI .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #GI .container .section-title h4
+  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container .general_info
+  {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 16px;
+  }
+  .form_area
+  {
+    margin: 0px;
+    width: 100%;
+  }
+  #GI .container .general_info .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 30%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #GI .container .general_info .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #GI
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #GI .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #GI .section-title h2
+  {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #GI .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #GI .container .section-title h4
+  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #GI .container .general_info
+  {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0px auto;
+    /* margin-left: 20px !important; */
+    /* margin-right: 20px !important; */
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 16px;
+  }
+  .form_area
+  {
+    margin: 0px auto;
+    width: 90%;
+  }
+  #GI .container .general_info .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 20%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #GI .container .general_info .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+/*------------------------------------------------------------------------------------------------------------------------------
+Extra large devices (large desktops, 1200px and up)
+------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #GI
+  {
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  }
+  #GI .section-title
+  {
+  padding-bottom: 30px;
+  }
+  #GI .section-title h2
+  {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  }
+  #GI .container
+  {
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  }
+
+  #GI .container .section-title
+  {
+  padding-bottom: 20px;
+  }
+
+  #GI .container .section-title h4
+  {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  }
+
+  #GI .container .general_info
+  {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  }
+
+
+  .form-control
+  {
+  border: none;
+  outline: none;
+  background-color: #CCCCCC;
+  color: #FEF1E0;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 80%;
+  margin: 0px auto;
+  }
+
+  .form_row_area
+  {
+  padding-left: 0px;
+  padding-top: 10px;
+  }
+
+  .form_area
+  {
+  margin: 0px auto;
+  width: 90%;
+  }
+
+  #GI .container .general_info .btn1{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 20%;
+  background-color: #AEABC1;
+  color: #FFF8ED;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  float: centre;
+  transition: transform .2s; /* Animation */
+  box-shadow: 2px 2px 5px 0px #a3a2a7;
+  }
+
+  #GI .container .general_info .btn1:hover{
+  background-color: #a099cf;
+  /* border: 1px solid; */
+  color: white;
+  transform: scale(1.1);
+  }
+}

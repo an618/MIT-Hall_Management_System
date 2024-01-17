@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#aboutus{
+    padding: 50px 0px;
+}
+#aboutus .title
+{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#aboutus .title h1
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+#aboutus .title h2
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+#aboutus .title .underline
+{
+    color: #FEF1E0;
+    border: 2px solid #FEF1E0;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+}
+
+#aboutus .container {
+    text-align: center;
+    background: #FFFFFF;
+}
+
+#aboutus .header {
+    padding-top: 40px;
+    color: #444;
+    font-size: 20px;
+    margin: auto;
+    line-height: 20px;
+}
+
+#aboutus .sub-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#aboutus .teams {
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+#aboutus .teams:hover {
+    background: #ddd;
+    border-radius: 12px;
+}
+
+#aboutus .teams img {
+    width: 200px;
+    height: 200px;
+}
+
+#aboutus .name {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#aboutus .desig {
+    font-style: italic;
+    color: #888;
+}
+
+#aboutus .about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+#aboutus .social-links {
+    margin: 14px;
+}
+
+#aboutus .social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+#aboutus .social-links a:hover {
+    transform: scale(1.5);
+}
+
+#aboutus .social-links a i {
+    color: #444;
+}
+
+@media screen and (max-width: 600px) {
+    .teams {
+        max-width: 100%;
+    }
+}

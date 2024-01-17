@@ -1,0 +1,675 @@
+.event_carousel h5
+{
+    font-size: 3.0rem;
+    font-weight: 900;
+    color: #FEF1E0;
+}
+#hall
+{
+    background-color: #FFFFFF;
+}
+#hall .section-title
+{
+    margin-top: 75px;
+    padding-bottom: 10px;
+    margin-bottom: 75px;
+}
+#hall .section-title h2
+{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+#hall .section-title hr
+{
+    color: #FEF1E0;
+    border: 2px solid  #FEF1E0;
+    border-radius: 5px;
+    width: 70px;
+}
+#hall .section-title .hall_search
+{
+    margin-top: 20px;
+    background-color: #FEF1E0;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    box-shadow: 3px 2px 8px 5px #adadad;
+
+}
+#hall .section-title .hall_search .hall_pic img
+{
+    width: 100%;
+    height: 40%;
+    padding: 25px;
+    border-radius: 5px;
+    padding-left: 25px;
+    border-radius: 6.5%;
+}
+
+#hall .section-title .hall_search .hall_detail h3
+{
+    text-align: center;
+    font-weight: 750;
+    margin-top: 30px;
+    font-size: 30px;
+}
+#hall .section-title .hall_search .hall_detail .underline
+{
+  color: #FFFFFF;
+  border: 2px solid  #FFFFFF;
+  border-radius: 5px;
+  width: 70px;
+}
+
+#hall .section-title .hall_search .hall_detail
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hall .section-title .hall_search .hall_detail
+{
+    margin-top: 20px;
+}
+
+#hall .section-title .hall_search .hall_detail img
+{
+    width: 25%;
+    height: auto;
+    padding: 8px 10px;
+}
+
+#hall .section-title .hall_search .hall_detail h4
+{
+    display: inline;
+    /* padding-top: 25px; */
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+#hall .section-title .hall_search .hall_detail p
+{
+    /* display: inline; */
+    /* padding-top: 10px; */
+    font-weight: bold;
+    margin: 0px;
+    float: left;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    font-size: 20px;
+    margin-top: 0.6rem;
+}
+
+#hall .section-title .hall_search .hall_detail .hall_button
+{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 20%;
+    background-color: #C4C4C4;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 2px 0px #5f5f5f;
+    margin-bottom: 40px !important;
+}
+
+#hall .section-title .hall_search .hall_detail .hall_button:hover
+{
+    background-color: #C4C4C4;
+    /* border: 1px solid; */
+    color: #000000;
+    transform: scale(1.1);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {} */
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767.98px) {} */
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) {} */
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) {} */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{
+    .event_carousel h5
+    {
+        font-size: 3.0rem;
+        font-weight: 900;
+        color: #FEF1E0;
+    }
+    #hall
+    {
+        background-color: #FFFFFF;
+    }
+    #hall .section-title
+    {
+        margin-top: 45px;
+        padding-bottom: 10px;
+        margin-bottom: 45px;
+    }
+    #hall .section-title h2
+    {
+        font-size: 25px;
+        font-weight: 900;
+        text-align: center;
+    }
+    #hall .section-title hr
+    {
+        color: #FEF1E0;
+        border: 2px solid  #FEF1E0;
+        border-radius: 5px;
+        width: 45px;
+    }
+    #hall .section-title .hall_search
+    {
+        margin-top: 20px;
+        background-color: #FEF1E0;
+        border-radius: 8px;
+        margin-bottom: 80px;
+        box-shadow: 3px 2px 8px 5px #adadad;
+
+    }
+    #hall .section-title .hall_search .hall_pic img
+    {
+        width: 100%;
+        height: 40%;
+        padding: 20px;
+        border-radius: 5px;
+        padding-left: 20px;
+        border-radius: 6.5%;
+    }
+
+    #hall .section-title .hall_search .hall_detail h3
+    {
+        text-align: center;
+        font-weight: 750;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    #hall .section-title .hall_search .hall_detail .underline
+    {
+        color: #FFFFFF;
+        border: 2px solid  #FFFFFF;
+        border-radius: 5px;
+        width: 70px;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        margin-top: 20px;
+    }
+
+    #hall .section-title .hall_search .hall_detail img
+    {
+        width: 25%;
+        height: auto;
+        padding: 8px 6px;
+    }
+
+    #hall .section-title .hall_search .hall_detail h4
+    {
+        display: inline;
+        /* padding-top: 25px; */
+        font-weight: 700;
+        margin: 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
+    #hall .section-title .hall_search .hall_detail p
+    {
+        /* display: inline; */
+        /* padding-top: 10px; */
+        font-weight: bold;
+        margin: 0px;
+        float: left;
+        /* text-align: center; */
+        /* vertical-align: middle; */
+        font-size: 14px;
+        margin-top: 0.6rem;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button
+    {
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 25%;
+        background-color: #C4C4C4;
+        color: #000000;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 16px;
+        float: centre;
+        transition: transform .2s; /* Animation */
+        box-shadow: 2px 2px 2px 0px #5f5f5f;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button:hover
+    {
+        background-color: #C4C4C4;
+        /* border: 1px solid; */
+        color: #000000;
+        transform: scale(1.1);
+    }
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    .event_carousel h5
+    {
+        font-size: 3.0rem;
+        font-weight: 900;
+        color: #FEF1E0;
+    }
+    #hall
+    {
+        background-color: #FFFFFF;
+    }
+    #hall .section-title
+    {
+        margin-top: 65px;
+        padding-bottom: 10px;
+        margin-bottom: 65px;
+    }
+    #hall .section-title h2
+    {
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+    }
+    #hall .section-title hr
+    {
+        color: #FEF1E0;
+        border: 2px solid  #FEF1E0;
+        border-radius: 5px;
+        width: 60px;
+    }
+    #hall .section-title .hall_search
+    {
+        margin-top: 10px;
+        background-color: #FEF1E0;
+        border-radius: 8px;
+        margin-bottom: 90px;
+        box-shadow: 3px 2px 8px 5px #adadad;
+
+    }
+    #hall .section-title .hall_search .hall_pic img
+    {
+        width: 100%;
+        height: 40%;
+        padding: 30px;
+        border-radius: 5px;
+        padding-left: 30px;
+        border-radius: 6.5%;
+    }
+
+    #hall .section-title .hall_search .hall_detail h3
+    {
+        text-align: center;
+        font-weight: 750;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    #hall .section-title .hall_search .hall_detail .underline
+    {
+        color: #FFFFFF;
+        border: 2px solid  #FFFFFF;
+        border-radius: 5px;
+        width: 70px;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        margin-top: 20px;
+    }
+
+    #hall .section-title .hall_search .hall_detail img
+    {
+        width: 25%;
+        height: auto;
+        padding: 8px 8px;
+    }
+
+    #hall .section-title .hall_search .hall_detail h4
+    {
+        display: inline;
+        /* padding-top: 25px; */
+        font-weight: 700;
+        margin: 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 22px;
+    }
+
+    #hall .section-title .hall_search .hall_detail p
+    {
+        /* display: inline; */
+        /* padding-top: 10px; */
+        font-weight: bold;
+        margin: 0px;
+        float: left;
+        /* text-align: center; */
+        /* vertical-align: middle; */
+        font-size: 20px;
+        margin-top: 0.6rem;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button
+    {
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 24%;
+        background-color: #C4C4C4;
+        color: #000000;
+        border-radius: 10px;
+        font-weight: 750;
+        font-size: 18px;
+        float: centre;
+        transition: transform .2s; /* Animation */
+        box-shadow: 2px 2px 2px 0px #5f5f5f;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button:hover
+    {
+        background-color: #C4C4C4;
+        /* border: 1px solid; */
+        color: #000000;
+        transform: scale(1.1);
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .event_carousel h5
+    {
+        font-size: 3.0rem;
+        font-weight: 900;
+        color: #FEF1E0;
+    }
+    #hall
+    {
+        background-color: #FFFFFF;
+    }
+    #hall .section-title
+    {
+        margin-top: 70px;
+        padding-bottom: 10px;
+        margin-bottom: 70px;
+    }
+    #hall .section-title h2
+    {
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+    }
+    #hall .section-title hr
+    {
+        color: #FEF1E0;
+        border: 2px solid  #FEF1E0;
+        border-radius: 5px;
+        width: 65px;
+    }
+    #hall .section-title .hall_search
+    {
+        margin-top: 20px;
+        background-color: #FEF1E0;
+        border-radius: 8px;
+        margin-bottom: 100px;
+        box-shadow: 3px 2px 8px 5px #adadad;
+
+    }
+    #hall .section-title .hall_search .hall_pic img
+    {
+        width: 100%;
+        height: 60%;
+        padding: 25px;
+        border-radius: 5px;
+        padding-left: 25px;
+        border-radius: 6.5%;
+        margin-top: 10%;
+    }
+
+    #hall .section-title .hall_search .hall_detail h3
+    {
+        text-align: center;
+        font-weight: 750;
+        margin-top: 20px;
+        font-size: 23px;
+    }
+    #hall .section-title .hall_search .hall_detail .underline
+    {
+    color: #FFFFFF;
+    border: 2px solid  #FFFFFF;
+    border-radius: 5px;
+    width: 70px;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        margin-top: 20px;
+    }
+
+    #hall .section-title .hall_search .hall_detail img
+    {
+        width: 25%;
+        height: auto;
+        padding: 8px 6px;
+    }
+
+    #hall .section-title .hall_search .hall_detail h4
+    {
+        display: inline;
+        /* padding-top: 25px; */
+        font-weight: 700;
+        margin: 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
+    #hall .section-title .hall_search .hall_detail p
+    {
+        /* display: inline; */
+        /* padding-top: 10px; */
+        font-weight: bold;
+        margin: 0px;
+        float: left;
+        /* text-align: center; */
+        /* vertical-align: middle; */
+        font-size: 14px;
+        margin-top: 0.6rem;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button
+    {
+        border: none;
+        outline: none;
+        height: 45px;
+        width: 30%;
+        background-color: #C4C4C4;
+        color: #000000;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 16px;
+        float: centre;
+        transition: transform .2s; /* Animation */
+        box-shadow: 2px 2px 2px 0px #5f5f5f;
+        margin-top: 30px !important;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button:hover
+    {
+        background-color: #C4C4C4;
+        /* border: 1px solid; */
+        color: #000000;
+        transform: scale(1.1);
+    }
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .event_carousel h5
+    {
+        font-size: 3.0rem;
+        font-weight: 900;
+        color: #FEF1E0;
+    }
+    #hall
+    {
+        background-color: #FFFFFF;
+    }
+    #hall .section-title
+    {
+        margin-top: 70px;
+        padding-bottom: 10px;
+        margin-bottom: 70px;
+    }
+    #hall .section-title h2
+    {
+        font-size: 45px;
+        font-weight: 900;
+        text-align: center;
+    }
+    #hall .section-title hr
+    {
+        color: #FEF1E0;
+        border: 2px solid  #FEF1E0;
+        border-radius: 5px;
+        width: 70px;
+    }
+    #hall .section-title .hall_search
+    {
+        margin-top: 20px;
+        background-color: #FEF1E0;
+        border-radius: 8px;
+        margin-bottom: 100px;
+        box-shadow: 3px 2px 8px 5px #adadad;
+
+    }
+    #hall .section-title .hall_search .hall_pic img
+    {
+        width: 100%;
+        height: 40%;
+        padding: 25px;
+        border-radius: 5px;
+        padding-left: 25px;
+        border-radius: 6.5%;
+        margin-top: 4% !important;
+    }
+
+    #hall .section-title .hall_search .hall_detail h3
+    {
+        text-align: center;
+        font-weight: 750;
+        margin-top: 30px;
+        font-size: 26px;
+    }
+    #hall .section-title .hall_search .hall_detail .underline
+    {
+        color: #FFFFFF;
+        border: 2px solid  #FFFFFF;
+        border-radius: 5px;
+        width: 70px;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #hall .section-title .hall_search .hall_detail
+    {
+        margin-top: 20px;
+    }
+
+    #hall .section-title .hall_search .hall_detail img
+    {
+        width: 25%;
+        height: auto;
+        padding: 8px 10px;
+    }
+
+    #hall .section-title .hall_search .hall_detail h4
+    {
+        display: inline;
+        /* padding-top: 25px; */
+        font-weight: 700;
+        margin: 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 24px;
+    }
+
+    #hall .section-title .hall_search .hall_detail p
+    {
+        /* display: inline; */
+        /* padding-top: 10px; */
+        font-weight: bold;
+        margin: 0px;
+        float: left;
+        /* text-align: center; */
+        /* vertical-align: middle; */
+        font-size: 20px;
+        margin-top: 0.6rem;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button
+    {
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 30%;
+        background-color: #C4C4C4;
+        color: #000000;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 18px;
+        float: centre;
+        transition: transform .2s; /* Animation */
+        box-shadow: 2px 2px 2px 0px #5f5f5f;
+        margin-bottom: 40px !important;
+    }
+
+    #hall .section-title .hall_search .hall_detail .hall_button:hover
+    {
+        background-color: #C4C4C4;
+        /* border: 1px solid; */
+        color: #000000;
+        transform: scale(1.1);
+    }
+}

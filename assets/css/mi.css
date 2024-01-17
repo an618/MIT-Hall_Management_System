@@ -1,0 +1,625 @@
+/*--------------------------------------------------------------------------------------------------------------------
+# General information
+----------------------------------------------------------------------------------------------------------------------*/
+#MD
+{
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+#MD .section-title
+{
+  padding-bottom: 30px;
+}
+#MD .section-title h2
+{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+#MD .container
+{
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#MD .container .section-title
+{
+  padding-bottom: 20px;
+}
+
+#MD .container .section-title h4
+{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#MD .container .more_details
+{
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#MD .more_details h6
+{
+    font-weight: bold;
+    /* text-align: center; */
+    font-size: 26px;
+    padding: 0px 110px;
+    padding-top: 40px;
+}
+
+#MD .more_details h5
+{
+    font-weight: bold;
+    color: #ff0000;
+    /* text-align: center; */
+    font-size: 26px;
+    padding: 0px 110px;
+    padding-top: 40px;
+}
+
+#MD .more_details p
+{
+    color: #000000;
+    font-size: 22   px;
+}
+.form-control
+{
+  border: none;
+  outline: none;
+  background-color: #CCCCCC;
+  color: #FEF1E0;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 80%;
+  margin: 0px auto;
+}
+
+#MD .more_details .custom-file .form-control
+{
+    border: none;
+    outline: none;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.form_row_area
+{
+  padding-left: 97px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.form_area
+{
+  margin: 0px;
+  width: 10%;
+}
+
+.form_browse
+{
+    border: none;
+    outline: none;
+    background-color: #CCCCCC;
+    color: #6C757D;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px auto;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.more_details .next_div
+{
+  padding-right: 4.4rem;
+}
+
+.more_details .next
+{
+  display: block;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 10%;
+  background-color: #AEABC1;
+  color: #FFF8ED;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 24px;
+  float: right;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: transform .2s Animation;
+  box-shadow: 2px 2px 5px 0px #a3a2a7;
+}
+.more_details .next:hover{
+  text-decoration: none;
+  background-color: #a099cf;
+  /* border: 1px solid; */
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #MD
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #MD .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #MD .section-title h2
+  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #MD .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #MD .container .section-title h4
+  {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container .more_details
+  {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .form_area
+  {
+    margin: 0px;
+    width: 100%;
+  }
+  #MD .container .more_details .btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #MD .container .more_details .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #MD
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #MD .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #MD .section-title h2
+  {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #MD .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #MD .container .section-title h4
+  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container .more_details
+  {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .form_area
+  {
+    margin: 0px;
+    width: 100%;
+  }
+  #MD .container .more_details .btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #MD .container .more_details .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #MD
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #MD .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #MD .section-title h2
+  {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #MD .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #MD .container .section-title h4
+  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container .more_details
+  {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 16px;
+  }
+  .form_area
+  {
+    margin: 0px;
+    width: 100%;
+  }
+  #MD .container .more_details .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 30%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #MD .container .more_details .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #MD
+  {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #MD .section-title
+  {
+    padding-bottom: 20px;
+  }
+  #MD .section-title h2
+  {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container
+  {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #MD .container .section-title
+  {
+    padding-bottom: 0px;
+  }
+
+  #MD .container .section-title h4
+  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #MD .container .more_details
+  {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form-control
+  {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #CCCCCC;
+    color: #FEF1E0;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0px auto;
+    /* margin-left: 20px !important; */
+    /* margin-right: 20px !important; */
+  }
+  .form_row_area
+  {
+    padding-left: 0px;
+    padding-top: 16px;
+  }
+  .form_area
+  {
+    margin: 0px auto;
+    width: 90%;
+  }
+  #MD .container .more_details .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 20%;
+    background-color: #AEABC1;
+    color: #FFF8ED;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    float: centre;
+    transition: transform .2s; /* Animation */
+    box-shadow: 2px 2px 5px 0px #a3a2a7;
+    margin-bottom: 5px !important;
+  }
+  #MD .container .more_details .btn1:hover{
+    background-color: #a099cf;
+    /* border: 1px solid; */
+    color: white;
+    transform: scale(1.1);
+  }
+}
+/*------------------------------------------------------------------------------------------------------------------------------
+Extra large devices (large desktops, 1200px and up)
+------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+  /*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+  #MD
+  {
+  background-color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  }
+  #MD .section-title
+  {
+  padding-bottom: 30px;
+  }
+  #MD .section-title h2
+  {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  }
+  #MD .container
+  {
+  background-color: #FFFFFF;
+  border-radius: 9px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  }
+
+  #MD .container .section-title
+  {
+  padding-bottom: 20px;
+  }
+
+  #MD .container .section-title h4
+  {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  }
+
+  #MD .container .more_details
+  {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  }
+
+
+  .form-control
+  {
+  border: none;
+  outline: none;
+  background-color: #CCCCCC;
+  color: #FEF1E0;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 80%;
+  margin: 0px auto;
+  }
+
+  .form_row_area
+  {
+  padding-left: 0px;
+  padding-top: 10px;
+  }
+
+  .form_area
+  {
+  margin: 0px auto;
+  width: 80%;
+  }
+
+  #MD .container .more_details .btn1{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 20%;
+  background-color: #AEABC1;
+  color: #FFF8ED;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  float: centre;
+  transition: transform .2s; /* Animation */
+  box-shadow: 2px 2px 5px 0px #a3a2a7;
+  }
+
+  #MD .container .more_details .btn1:hover{
+  background-color: #a099cf;
+  /* border: 1px solid; */
+  color: white;
+  transform: scale(1.1);
+  }
+}

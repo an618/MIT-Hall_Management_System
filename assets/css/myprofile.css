@@ -1,0 +1,211 @@
+#myprofile
+{
+    background-color: #FEF1E0;
+    margin: auto;
+}
+#myprofile .row
+{
+    margin: auto;
+}
+#myprofile .col-3
+{
+    background-color: #FFFFFF;
+    height: 195px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#myprofile .col-9
+{
+    padding: 0%;
+}
+#myprofile .nav-link
+{
+    border: 0.5px solid #000000;
+}
+#myprofile .nav-pills
+{
+    width: 100%;
+}
+
+#myprofile a
+{
+    text-align: center;
+    border-radius: 0px;
+    background-color: #AEABC1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border-style: 2px solid;
+}
+
+#myprofile .active
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#myprofile .myprofile
+{
+    background-color: #ffffff;
+}
+
+
+#myprofile .profile
+{
+    padding: 50px 200px;
+}
+
+#myprofile .profile .title h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#myprofile .profile .title .underline
+{
+    color: #FDE3BA;
+    border: 2px solid #FDE3BA;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+}
+
+#myprofile .profile .myprofile_content
+{
+    margin: auto;
+    padding: 50px;
+    align-self: center;
+}
+#myprofile .profile .myprofile_content .full_cnt
+{   
+    background-color: #CCCCCC;
+    border-radius: 6px !important;
+    margin-left: 6%;
+    margin-right: 15%;
+    margin-top: 2rem;
+}
+#myprofile .profile .myprofile_content .cnt_left
+{
+    background-color: #9D9999;
+    border-radius: 6px;       
+}
+
+#myprofile .profile .myprofile_content .cnt_left h4
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    margin: auto;
+    color: #FFFFFF;    
+}
+
+#myprofile .profile .myprofile_content .cnt_right
+{
+    background-color: #CCCCCC;
+    border-top-right-radius: 6px;    
+    border-bottom-right-radius: 6px;    
+}
+
+#myprofile .profile .myprofile_content .cnt_right h3
+{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0.3rem;
+    padding: 0.8rem;
+    font-size: 20px;
+    margin: auto;
+    float: left;      
+}
+
+
+
+
+
+
+
+
+
+
+
+#myprofile .booking
+{
+    padding: 50px 200px;
+}
+
+
+#myprofile .booking .title h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#myprofile .booking .title .underline
+{
+    color: #FDE3BA;
+    border: 2px solid #FDE3BA;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+}
+
+
+#myprofile .booking .table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    border: #000000;
+}
+#myprofile .booking  .table td, .table th{
+    /* padding:12px 15px; */
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 16px;
+}
+#myprofile .booking  .table th{
+    background-color:  #CCCCCC;
+    color:#000000;
+}
+#myprofile .booking  .table .color {
+    border-radius: 4px;
+    background-color: #F8C3C3;
+    padding: 1px;
+}
+
+#myprofile .booking  .table tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+
+@media(max-width: 500px){
+    #myprofile .booking .table thead{
+        display: none;
+    }
+
+    #myprofile .booking .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    #myprofile .booking .table tr{
+        margin-bottom:15px;
+    }
+    #myprofile .booking .table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    #myprofile .booking .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left:0;
+        width: 50%;
+        padding-left:15px;
+        font-size:15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
